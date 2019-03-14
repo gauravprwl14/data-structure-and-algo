@@ -1,0 +1,14 @@
+npm-debug.log
+yarn-error.log
+*node_modules
+/node_modules
+/dist
+/build
+/.idea
+/tmp
+.DS_Store
+/data.csv
+*.psd
+package-lock.json
+/.vscode
+.node-version
