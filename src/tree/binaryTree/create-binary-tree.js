@@ -4,7 +4,7 @@ function Node(val){
     this.right = null;
   }
 
-  function BinarySearchTree(){
+  export function BinarySearchTree(){
     this.root = null;
   }
   
