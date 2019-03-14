@@ -1,0 +1,19 @@
+{
+  "name": "data-structure-and-algo",
+  "version": "1.0.0",
+  "description": "solve problem related to data structure and algo using node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravprwl14/data-structure-and-algo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gauravprwl14/data-structure-and-algo/issues"
+  },
+  "homepage": "https://github.com/gauravprwl14/data-structure-and-algo#readme"
+}
