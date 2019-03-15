@@ -1,3 +1,5 @@
+import { getBinaryTreeHeight } from './binary-tree-height'
+
 function Node(val){
     this.value = val;
     this.left = null;
@@ -42,3 +44,21 @@ function Node(val){
    }
  
  }
+
+ BinarySearchTree.prototype.printIndore = function() {
+    var root = this.root
+    printBinaryTree(root)
+    function printBinaryTree(node) {
+       if (node === null) return
+
+       printBinaryTree(node.left)
+       console.log(node.value)
+       printBinaryTree(node.right)
+    }
+ }
+ 
+ BinarySearchTree.prototype.height = function() {
+    var root = this.root
+    return getBinaryTreeHeight(root)
+ }
+
