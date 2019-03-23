@@ -3,6 +3,14 @@ export function mirror(root) {
         return
     }
 
-    
+    if (root.left) {
+        mirror(root.left)
+    }
+    if (root.right) {
+        mirror(root.right)
+    }
 
+    const temp = root.left
+    root.left = root.right
+    root.right = temp
 }

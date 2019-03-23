@@ -1,19 +1,19 @@
 // https://www.geeksforgeeks.org/print-level-order-traversal-line-line/
-import { BinarySearchTree } from './create-binary-tree'
+// import { BinarySearchTree } from './create-binary-tree'
 
-var bst = new BinarySearchTree();
-bst.push(20);
-bst.push(8);
-bst.push(22);
-bst.push(4);
-bst.push(12);
-bst.push(10);
-bst.push(14);
+// var bst = new BinarySearchTree();
+// bst.push(20);
+// bst.push(8);
+// bst.push(22);
+// bst.push(4);
+// bst.push(12);
+// bst.push(10);
+// bst.push(14);
 
-levelOrderTraversal(bst.root, bst.height())
+// levelOrderTraversal(bst.root, bst.height())
 
 
-function levelOrderTraversal(node, height) {
+export function levelOrderTraversal(node, height) {
     let queue = []
     if (node === null) return
 

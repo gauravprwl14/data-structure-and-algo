@@ -1,4 +1,6 @@
 import { getBinaryTreeHeight } from './binary-tree-height'
+import { mirror } from './mirror';
+import { levelOrderTraversal } from './binary-tree-print-level-order-traversal';
 
 function Node(val){
     this.value = val;
@@ -60,5 +62,14 @@ function Node(val){
  BinarySearchTree.prototype.height = function() {
     var root = this.root
     return getBinaryTreeHeight(root)
+ }
+ 
+ BinarySearchTree.prototype.mirror = function() {
+    var root = this.root
+    return mirror(root)
+ }
+ BinarySearchTree.prototype.levelOrderPrint = function() {
+    var root = this.root
+    return levelOrderTraversal(root)
  }
 
