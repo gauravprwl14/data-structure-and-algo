@@ -44,6 +44,9 @@ function isParenthesisBalances(evaStr) {
         }
     })
 
+
+
+    
     if (arrOfParenthesis && arrOfParenthesis.length) {
         return 'not balanced'
     }
