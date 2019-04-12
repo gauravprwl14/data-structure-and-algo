@@ -73,5 +73,5 @@ function findLowestCommonAncestor(node, v1, v2) {
     let v1NodePath = getNodePath(node, v1)
     let v2NodePath = getNodePath(node, v2)
     let commonAncestor = getCommonAncestor(v1NodePath, v2NodePath)
-    console.log(commonAncestor)
+    console.log('commonAncestor', comxmonAncestor)
 }
